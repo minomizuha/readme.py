@@ -60,6 +60,8 @@ def generate_readme():
 root = tk.Tk()
 root.title("README生成ソフト")
 
+root.iconbitmap('icon.ico')
+
 # 3つのフレームを作成
 frame1 = ttk.Frame(root, padding=10)
 frame1.grid(row=0, column=0, sticky="NS")
